@@ -1,5 +1,5 @@
-^title Architecture, Performance, and Games
-^section Introduction
+^title Architecture, Performance, and Games  结构，性能和游戏
+^section Introduction 介绍
 
 Before we plunge headfirst into a pile of patterns, I thought it might help to
 give you some context about how I think about software architecture and how it
@@ -7,6 +7,10 @@ applies to games. It may help you understand the rest of this book better. If
 nothing else, when you get dragged into an <span name="ammo">argument</span>
 about how terrible (or awesome) design patterns and software architecture are,
 it will give you some ammo to use.
+
+在我们冒失地陷入了一堆的模式，我想这可能有助于给你关于我如何看待软件架构以及
+它是如何应用到游戏的一些背景。它可以帮助你了解这本书的其余部分更好。如果不出意外
+，当你被拖入设计模式和软件架构多么可怕的（或真棒）是一个参数，它会给你一些弹药的使用。
 
 <aside name="ammo">
 
@@ -21,6 +25,16 @@ dealer, I have wares for sale to all combatants.
 away knowing the linear algebra behind 3D graphics or the calculus behind game
 physics. It won't show you how to alpha-beta prune your AI's search tree or
 simulate a room's reverberation in your audio playback.
+
+如果你读这本书从头到尾，你会不会来走背后知道3D图形或背后的游戏物理，微积分的线性代数。它不会告诉你如何α-β修剪你的AI的搜索树或在你的音频播放模拟房间的混响。
+
+哇，这一段​​将让这本书一个可怕的广告。
+相反，这本书是关于所有这一切之间的代码。这是少写代码比它是关于组织它。每个程序具有一定的组织，哪怕它只是“大灌篮整个事情到main（）和看看会发生什么”，所以我认为这是更有趣的谈论了良好的组织是什么让。我们如何区分一个坏的一个很好的架构？
+
+我一直在思索这个问题，大约五年。当然，像你一样，我有很好的设计一种直觉。我们已经通过代码库的那么糟糕全部遭遇，你能希望为他们做的最好的就是带他们出去回来，把他们赶出自己的痛苦。
+
+让我们承认这一点，我们大多数人都负责那几个。
+少数幸运的了相反的经验，有机会与设计精美的代码工作。那种代码库的，感觉像门房您的每一个心血来潮的热盼挂满完美任命的豪华酒店。什么是两者之间的区别？
 
 <aside name="won't">
 
